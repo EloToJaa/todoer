@@ -4,6 +4,6 @@ export default {
   schema: "./db/schema.ts",
   out: "./drizzle",
   dialect: "sqlite",
-  driver: "expo", // <--- very important
+  driver: "expo",
   casing: "snake_case",
 } satisfies Config;
